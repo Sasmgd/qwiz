@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>სპორტი</title>
+    <link rel="stylesheet" href="../css/staylTabs.css">
+    <link rel="stylesheet" href="../css/staylqwiz.css">
+    <style>
+         body {
+         background-image: url('../img/backsport.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+        }
+</style>
+</head>
+<body>
+    
+    <div class="tabs-block-wrapper">
+        <h1>აირჩიეთ ტესტის სირთულე</h1>
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">ატვილი</div>
+            <div class="tab-btn" data-btn="2">ძნელი</div>
+            
+        </div>
+        <div id="contents">
+            <div class="content active Easy" data-content="1"> 
+                <div class="quiz-over-modal">
+                    <div class="contenta">
+                        <h1>მადლობა !</h1>
+                        <p>სწორი პასუხი 
+                            <span id="correct-answer"></span>-ს
+                            <span id="number-of-all-questions-2"></span> ტესტიდან
+                        </p>
+                        <button id="btn-try-again">ტესტის თავიდან დაწყება</button>
+                    </div>
+                </div>
+                <div class="quiz-container">
+                    <div class="question-number">
+                        <h3>
+                            <span id="number-of-question"></span>-
+                            
+                            <span id="number-of-all-questions"></span>
+                        </h3>
+                    </div>
+                    <div id="question"></div>
+                    <div class="options">
+                        <div data-id="0" class="option option1"></div>
+                        <div data-id="1" class="option option2"></div>
+                        <div data-id="2" class="option option3"></div>
+                        <div data-id="3" class="option option4"></div>
+                    </div>
+                    <div class="button">
+                        <button id="btn-next">შემტეკი</button>
+                    </div>
+                    <div id="answers-tracker">
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content hard" data-content="2">
+                <div class="quizz-over-modal">
+                    <div class="contentas">
+                        <h1>მადლობა !</h1>
+                        <p>სწორი პასუხი 
+                            <span id="correctt-answer"></span>-ი
+                            <span id="numberr-of-all-questions-2"></span> გითხვიდან
+                        </p>
+                        <button id="btnn-try-again">ტესტის თავიდან დაწყება</button>
+                    </div>
+                </div>
+                <div class="quizz-container">
+                    <div class="questionn-number">
+                        <h3>
+                            <span id="numberr-of-question"></span>-
+                            
+                            <span id="numberr-of-all-questions"></span>
+                        </h3>
+                    </div>
+                    <div id="questionn"></div>
+                    <div class="optionss">
+                        <div data-idd="0" class="optionn optionn1"></div>
+                        <div data-idd="1" class="optionn optionn2"></div>
+                        <div data-idd="2" class="optionn optionn3"></div>
+                        <div data-idd="3" class="optionn optionn4"></div>
+                    </div>
+                    <div class="buttonn">
+                        <button id="btnn-next">Next</button>
+                    </div>
+                    <div id="answerss-tracker">
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+       
+    </div>
+    <script src="../js/sporteasy.js"></script>
+    <script src="../js/soprthard.js"></script>
+    <script src="../js/mainTabs.js"></script>
+</body>
+</html>

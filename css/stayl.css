@@ -1,0 +1,13 @@
+body{
+    background-image: url('../img/backgraund.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .tybs{
+      text-align: center;
+  }
